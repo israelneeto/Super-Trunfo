@@ -5,13 +5,6 @@ int main() {
 //Cadastro da 1º Carta Super Trunfo - Variáveis da Carta 1
 
 //---------- Carta: 1 ---------
-//Código: B01
-//Estado: Brasília
-//Nome da Cidade: Ceilândia
-//População: 287.023 habitantes 
-//Área: 29,10 km²
-//PIB: 20 bilhões de reais
-//Número de Pontos Turísticos: 9
 int carta1 = 1 , população1 = 287.023 , pontos1 = 9;
 char codigo1 [5] = "B01", estado1 [25] = "Brasília" , cidade1 [50] = "Ceilândia";
 float area1 = 29,10, pib1 =  20;
@@ -58,14 +51,6 @@ printf("PIB: %.2f bilhoes de reais\n" , pib1);
 //Cadastro da 2° Carta Super Trunfo - Variáveis da Carta 2
 
 //---------- Carta: 2 ---------
-//Carta: 2
-//Código: M02
-//Estado: Minas Gerais
-//Nome da Cidade: Belo Horizonte
-//População: 2.315.000 milhoes de habitantes
-//Área: 331.000 km²
-//PIB: 105.000 bilhões de reais
-//Número de Pontos Turísticos: 12
 
 // Variáveis da Carta 2
 int carta2 = 2 , população2 = 2.315, pontos2 = 12;
