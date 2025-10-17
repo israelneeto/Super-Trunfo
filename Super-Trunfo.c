@@ -6,18 +6,18 @@ int main() {
 
 //---------- Carta: 1 ---------
 //Código: B01
-//Estado: Bahia
-//Nome da Cidade: Porto Seguro
-//População: 167.955 habitantes 
-//Área: 564.760,42 km²
-//PIB: 470.400 bilhões de reais
-//Número de Pontos Turísticos: 15
-int carta1 = 1 , população1 = 167.955 , pontos1 = 15;
-char codigo1 [5] = "B01", estado1 [25] = "Bahia" , cidade1 [50] = "Porto Seguro";
-float area1 = 564.760, pib1 =  470.400;
+//Estado: Brasília
+//Nome da Cidade: Ceilândia
+//População: 287.023 habitantes 
+//Área: 29,10 km²
+//PIB: 20 bilhões de reais
+//Número de Pontos Turísticos: 9
+int carta1 = 1 , população1 = 287.023 , pontos1 = 9;
+char codigo1 [5] = "B01", estado1 [25] = "Brasília" , cidade1 [50] = "Ceilândia";
+float area1 = 29,10, pib1 =  20;
 
 // Cadastro da Carta 1
-    printf("---------- Cadastro da Carta 1 ----------\n");
+    printf("Cadastro da Carta 1\n");
 
     printf("Digite o número da carta: ");
     scanf("%d", &carta1);
@@ -44,8 +44,8 @@ float area1 = 564.760, pib1 =  470.400;
     scanf("%d", &pontos1);
 
 
-// Exibição da Carta 115
-printf("===== CARTA 1 =====\n");
+// Exibição da Carta 1
+printf("CARTA 1\n");
 printf("Carta: %d\n", carta1);
 printf("População: %d mil habitantes\n", população1);
 printf("Pontos Turísticos: %d\n", pontos1);
@@ -74,7 +74,7 @@ float area2 = 331.000, pib2 =  105.000;
 
   
     // Cadastro da Carta 2
-    printf("\n---------- Cadastro da Carta 2 ----------\n");
+    printf("\nCadastro da Carta 2\n");
 
     printf("Digite o número da carta: ");
     scanf("%d", &carta2);
@@ -101,7 +101,7 @@ float area2 = 331.000, pib2 =  105.000;
     scanf("%d", &pontos2);
 
     //Exibição da Carta 2
-printf("===== CARTA2 =====\n");
+printf("CARTA2\n");
 printf("Carta: %d\n", carta2);
 printf("População: %d milhoes habitantes\n", população2);
 printf("Pontos Turísticos: %d\n", pontos2);
